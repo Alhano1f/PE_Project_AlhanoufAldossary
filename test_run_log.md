@@ -1,6 +1,6 @@
-# Test run log (for your reference, not part of the GitHub upload)
+# Test run log (for your reference)
 
-Raw ChatGPT outputs for every run, 2026_10_15. Links open only in your own ChatGPT account.
+Raw ChatGPT outputs for every run, 2026_10_15.
 
 ## T1A
 
