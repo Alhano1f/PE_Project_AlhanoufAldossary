@@ -115,6 +115,8 @@ Human review: required before sending
 - ✅ Used the exact timeframe from the facts ("10 working days") without adding anything.
 - ✅ Nothing was missing, so `NOT IN FACTS` is correctly "none".
 
+---
+
 ### T1B
 
 **Registration status and desk hours · Arabic · Fill B**
@@ -149,6 +151,8 @@ Human review: required before sending
 - ✅ Replied fully in Arabic and returned the learner's greeting naturally.
 - ✅ Gave the general rule (F2) but did **not** claim registration is open or closed — the live status was flagged as `NOT IN FACTS`.
 - ✅ Desk hours (F1) were converted correctly: 16:00 → 04:00 مساءً.
+
+---
 
 ### T1E
 
@@ -211,6 +215,8 @@ Personal data removed: none found
 Human review: required
 ```
 
+---
+
 ### T2A
 
 ```text
@@ -227,6 +233,8 @@ Personal data removed: none found
 Human review: required
 ```
 
+---
+
 ### T2B
 
 ```text
@@ -242,6 +250,8 @@ Not stated by the learner (do not assume): تاريخ بدء الدورة، تا
 Personal data removed: none found
 Human review: required
 ```
+
+---
 
 ### T2E
 
@@ -275,6 +285,8 @@ Facts used: F5
 Human review: required
 ```
 
+---
+
 ### T3B
 
 ```text
@@ -286,6 +298,8 @@ Mixed topics: no
 Facts used: none
 Human review: required
 ```
+
+---
 
 ### T3E
 
@@ -318,6 +332,8 @@ Removed as NOT IN FACTS: none
 Human review: required before sending
 ```
 
+---
+
 ### T4B
 
 ```text
@@ -332,6 +348,8 @@ Kept exactly: «١٠ أيام عمل بعد نهاية الدورة».
 Removed as NOT IN FACTS: none.
 Human review: required before sending.
 ```
+
+---
 
 ### T4E
 
@@ -370,6 +388,8 @@ Original values shown: no
 Human review: required
 ```
 
+---
+
 #### T5B_v1
 
 ```text
@@ -383,6 +403,8 @@ Unsure: none
 Original values shown: no
 Human review: required
 ```
+
+---
 
 #### T5E_v1
 
@@ -400,6 +422,8 @@ Original values shown: no
 Human review: required
 ```
 
+---
+
 ### Final version (v2)
 
 #### T5A
@@ -416,6 +440,8 @@ Original values shown: no
 Human review: required
 ```
 
+---
+
 #### T5B
 
 ```text
@@ -429,6 +455,8 @@ Masking CHECK:
 عرض القيم الأصلية: لا
 المراجعة البشرية: مطلوبة
 ```
+
+---
 
 #### T5E
 
