@@ -159,7 +159,7 @@ I learned not to confuse a professional tone with evidence. The slides also made
 
 ### Three layers of protection
 
-![Original verification flow](assets/verification-layers.svg)
+![Defense in depth: a draft is not an approved answer](assets/verification-layers.png)
 
 1. **Prevent:** Put explicit rules and missing-information instructions in the template.
 2. **Detect:** Review the response against the inquiry, approved facts and any relevant current notice.
