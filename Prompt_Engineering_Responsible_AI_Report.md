@@ -8,7 +8,7 @@
 
 > **My biggest lesson:** Prompt engineering is not about finding a magic sentence that makes AI smart. It is about designing clear instructions, controlling quality, reusing what works, and taking responsibility for the result.
 
-![Original learning journey infographic](assets/learning-journey.svg)
+![My learning journey: four connected capabilities](assets/learning-journey.png)
 
 ## Executive summary
 
@@ -32,7 +32,7 @@ For example, asking an assistant to “write a reply” leaves several questions
 
 The core technique was **RACE: Role, Action, Context and Expectation**.
 
-![Original RACE diagram](assets/race-framework.svg)
+![RACE: the four questions behind my prompt](assets/race-framework.png)
 
 | Component | What I learned | How I use it |
 |---|---|---|
@@ -101,7 +101,7 @@ The masked version still allows the assistant to work on the communication task 
 
 Day 3 addressed an everyday inefficiency: copying an old prompt, editing multiple lines, and hoping no details from the previous case remain. I learned how to turn a working prompt into a **dynamic template** whose instructions stay fixed while selected values change.
 
-![Original template diagram](assets/dynamic-template.svg)
+![A reusable prompt: fixed instructions + changing inputs](assets/dynamic-template.png)
 
 The program represented variable fields inside square brackets, such as `[INQUIRY]`, `[LANGUAGE]`, `[TONE]`, `[MAX_WORDS]`, and `[DESK_FACTS]`. The naming convention matters because clearly named slots are easier for other people to fill correctly. The goal is to update only what changes, while keeping critical rules in place.
 
