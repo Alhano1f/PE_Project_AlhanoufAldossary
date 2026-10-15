@@ -1,5 +1,15 @@
 # TC Prompt Library — Learner Support Desk
 
+## Training program
+
+This project was completed as part of the Prompt Engineering and Responsible AI Use training program at SDAIA Academy, under the supervision of [Abdullah Khalid Alshahrani](https://www.linkedin.com/in/abdullah-alshahrani-9125bb2a0/).
+
+The project demonstrates the practical application of prompt engineering and responsible AI use — building a clean, approved prompt library through structured RACE prompts, reusable templates with variables and fixed output formats, safe handling of sensitive data, verification and responsible-use rules, and a documented three-test quality report.
+
+Official SDAIA Academy GitHub: https://github.com/SDAIAAcademy
+
+---
+
 > A clean, tested and approved prompt library that helps a training center's support desk draft safe, consistent replies to learners — with a person approving every output.
 
 ![Templates](https://img.shields.io/badge/templates-5%20approved-2ea44f)
@@ -21,6 +31,7 @@ Final project for Day 5 of the **Prompt Engineering & Responsible AI Use** progr
 
 ## Contents
 
+- [Training program](#training-program)
 - [Scenario](#scenario)
 - [Workflow](#workflow)
 - [Templates](#templates)
@@ -28,7 +39,6 @@ Final project for Day 5 of the **Prompt Engineering & Responsible AI Use** progr
 - [Quick start](#quick-start)
 - [Library structure](#library-structure)
 - [Responsible use](#responsible-use)
-- [Training program](#training-program)
 
 ---
 
@@ -144,12 +154,3 @@ Full instructions are in [`library_guide.md`](PE_Project_AlhanoufAldossary/libra
 | 📋 **One source of truth** | The Facts block is the only source of policy. Anything else is marked `NOT IN FACTS`, never guessed. |
 | 🔒 **Privacy first** | The desk never asks for ID numbers, passwords or bank details, and personal data is masked before any AI use. |
 | ⚖️ **Fair treatment** | Every learner gets the same facts and tone, whatever their name or background. |
-
-## Training program
-
-This project was completed as part of the Prompt Engineering and Responsible AI Use training program at SDAIA Academy, under the supervision of [Abdullah Khalid Alshahrani](https://www.linkedin.com/in/abdullah-alshahrani-9125bb2a0/).
-
-The project demonstrates the practical application of prompt engineering and responsible AI use — building a clean, approved prompt library through structured RACE prompts, reusable templates with variables and fixed output formats, safe handling of sensitive data, verification and responsible-use rules, and a documented three-test quality report.
-
-Official SDAIA Academy GitHub:
-https://github.com/SDAIAAcademy
