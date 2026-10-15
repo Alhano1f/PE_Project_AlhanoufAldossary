@@ -3,7 +3,7 @@
 The raw outputs from every test run of the five TC templates, recorded on **15 October 2026**. This log backs up the scores in the [Test Results Report](PE_Project_AlhanoufAldossary/Test_Results_Report.pdf) and the [README](README.md).
 
 > [!NOTE]
-> All learner names, messages and details in these tests are **invented**. Links to the original chat sessions were removed for privacy and safety.
+> All learner names, messages and details in these tests are **invented**.
 
 ---
 
