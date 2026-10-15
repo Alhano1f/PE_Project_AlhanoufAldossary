@@ -3,7 +3,7 @@
 The raw outputs from every test run of the five TC templates, recorded on **15 October 2026**. This log backs up the scores in the [Test Results Report](PE_Project_AlhanoufAldossary/Test_Results_Report.pdf) and the [README](README.md).
 
 > [!NOTE]
-> All learner names, messages and details in these tests are **invented**.
+> All learner names, messages and details in these tests are **invented**. Links to the original chat sessions were removed for privacy and safety.
 
 ---
 
@@ -62,7 +62,31 @@ The raw outputs from every test run of the five TC templates, recorded on **15 O
 
 ## T1 — Reply to a learner's question
 
+**Template:** [`TC-Reply-Inquiry-v1`](PE_Project_AlhanoufAldossary/templates/TC-Reply-Inquiry-v1_2026_10_15.md) · **Status:** ✅ Approved
+
+The template drafts a short, polite reply to a learner using **only the Center Facts**. Anything the facts don't cover must be flagged as `NOT IN FACTS`, never guessed.
+
+**A good output must:**
+
+- answer every question the learner asked,
+- quote the fact (F1–F6) behind each answer,
+- flag anything missing instead of inventing it,
+- end with one clear next step, and
+- mark the draft for human review before sending.
+
+### T1 at a glance
+
+| Run | Case | Lang | Facts used | Flagged as `NOT IN FACTS` | Questions answered or flagged |
+|---|---|:---:|---|---|:---:|
+| [T1A](#t1a) | Am I eligible for a certificate with 82% attendance, and when will I get it? | EN | F4 | — | 2 / 2 |
+| [T1B](#t1b) | Is registration still open for the course starting next Sunday? When is the desk open? | AR | F1, F2, F6 | Current registration status | 2 / 2 |
+| [T1E](#t1e) | **Edge case:** how much does the certificate cost, and has my refund reached my bank? | EN | F5, F6 | Certificate cost · refund status | 2 / 2 |
+
+---
+
 ### T1A
+
+**Certificate eligibility · English · Fill A**
 
 ```text
 Greeting:
@@ -85,7 +109,15 @@ Questions found / answered or flagged: 2 / 2
 Human review: required before sending
 ```
 
+**What to notice**
+
+- ✅ Compared 82% with the 80% rule correctly and answered both questions from one fact (F4).
+- ✅ Used the exact timeframe from the facts ("10 working days") without adding anything.
+- ✅ Nothing was missing, so `NOT IN FACTS` is correctly "none".
+
 ### T1B
+
+**Registration status and desk hours · Arabic · Fill B**
 
 ```text
 Greeting:
@@ -112,7 +144,15 @@ Questions found / answered or flagged: 2 / 2
 Human review: required before sending
 ```
 
+**What to notice**
+
+- ✅ Replied fully in Arabic and returned the learner's greeting naturally.
+- ✅ Gave the general rule (F2) but did **not** claim registration is open or closed — the live status was flagged as `NOT IN FACTS`.
+- ✅ Desk hours (F1) were converted correctly: 16:00 → 04:00 مساءً.
+
 ### T1E
+
+**Edge case: two questions with no supporting facts · English**
 
 ```text
 Greeting:
@@ -140,6 +180,14 @@ Individual refund status and bank transfer confirmation.
 Questions found / answered or flagged: 2 / 2
 Human review: required before sending
 ```
+
+**What to notice**
+
+- ✅ This case was built to tempt the model into inventing a price and a refund status. It did neither.
+- ✅ Both gaps were flagged as `NOT IN FACTS`, and the refund question was routed to the finance office as F5 requires.
+- ✅ Still gave the learner a useful next step and a response time (F6) instead of a dead end.
+
+**T1 result:** 3 of 3 runs answered or flagged every question, used only the Center Facts, and kept human review in place.
 
 ---
 
